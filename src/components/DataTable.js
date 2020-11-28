@@ -8,7 +8,7 @@ function DataTable({ headings, users, handleSort}) {
             <table
                 id="table"
                 className="table table-striped table-hover table-condensed">
-                    <thead>
+                    <thead class="hed">
                         <tr>
                             {headings.map(({ name, width }) => {
                                 return (
