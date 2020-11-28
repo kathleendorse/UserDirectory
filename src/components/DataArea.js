@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 //import DataTable from "./DataTable";
-//import Nav from "./Nav";
+import Nav from "./Nav";
 import API from "../utils/API";
 //import "../styles/DataArea.css";
 
@@ -87,7 +87,7 @@ export default class DataArea extends Component {
     render() {
         return (
             <>
-                {/* <Nav handleSearchChange={this.handleSearchChange} /> */}
+                <Nav handleSearchChange={this.handleSearchChange} />
                 <div className="data-area">
                     {/* <DataTable
                     headings={this.headings}
