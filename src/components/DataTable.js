@@ -20,7 +20,7 @@ function DataTable({ headings, users, handleSort}) {
                                         }}
                                         >
                                             {name}
-                                            <span className="pointer"></span>
+                                            <span className="pointer"><i class="fas fa-sort"></i></span>
                                     </th>
                                 );
                             })}
