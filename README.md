@@ -28,7 +28,7 @@ REACT web application that allows allowing the user to visualize all Employees p
 - React
 - NodeJS
 - Bootstrap
-- Random User API: "https://randomuser.me/api/?results=200&nat=us"
+- Random User API: https://randomuser.me/api/
 
 ## Usage
 
